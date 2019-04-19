@@ -4,8 +4,8 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-#FROM debian:jessie
-FROM quay.io/spivegin/tlmbasedebian:latest
+FROM debian:jessie
+#FROM quay.io/spivegin/tlmbasedebian:latest
 # prevent Debian's PHP packages from being installed
 # https://github.com/docker-library/php/pull/542
 RUN set -eux; \
